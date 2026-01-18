@@ -5,7 +5,7 @@
 "Il était une fois, Gabès était un joyau méditerranéen..."
 Ce projet n'est pas qu'une simple simulation statistique. C'est un témoignage numérique qui quantifie la douleur silencieuse d'une communauté, la perte invisible d'années de vie, et le prix humain du "développement" industriel.****
 
-🎯 Objectives
+**Objectives**
 Quantify potential life years lost due to industrial PM2.5 exposure
 
 Visualize the invisible health burden on Gabès residents
@@ -47,25 +47,25 @@ LE_ref = 77.0 years (Tunisia 2023, INS)
 exp() = Exponential function
 
 Reference: *WHO (2021). Global Air Quality Guidelines. RR=1.08 per 10μg/m³.*
-## 📊 Data Sources & References
+## Data Sources & References
 
 | Data Type | Value | Source | Year | Confidence |
 |:----------|:------|:-------|:-----|:----------|
-| **Life Expectancy** | 77.0 years | INS Tunisia - National Statistics Institute | 2023 | 🟢 High |
-| **PM2.5 Risk Coefficient** | 1.08 per 10μg/m³ | WHO Global Air Quality Guidelines | 2021 | 🟢 High |
-| **Simulated Health Impact** | 15.7 years lost | This simulation (30μg/m³ scenario) | 2026 | 🟡 Medium |
-| **Regional Context** | Industrial pollution patterns | Ben Brahim et al., *J. Environ. Manage.* | 2019 | 🟢 High |
-| **Population Data** | ~150,000 residents | Gabès Governorate Census | 2023 | 🟢 High |
-| **Validation Data** | Respiratory disease rates | Tunisian Ministry of Health | 2022 | 🟡 Medium |
+| **Life Expectancy** | 77.0 years | INS Tunisia - National Statistics Institute | 2023 |  High |
+| **PM2.5 Risk Coefficient** | 1.08 per 10μg/m³ | WHO Global Air Quality Guidelines | 2021 |  High |
+| **Simulated Health Impact** | 15.7 years lost | This simulation (30μg/m³ scenario) | 2026 |  Medium |
+| **Regional Context** | Industrial pollution patterns | Ben Brahim et al., *J. Environ. Manage.* | 2019 |  High |
+| **Population Data** | ~150,000 residents | Gabès Governorate Census | 2023 |  High |
+| **Validation Data** | Respiratory disease rates | Tunisian Ministry of Health | 2022 | Medium |
 
-## 🔬 Simulation Scenarios
+## Simulation Scenarios
 
 | Scenario | ΔPM2.5 | Life Expectancy | Years Lost | Health Impact |
 |:---------|:-------|:----------------|:-----------|:--------------|
-| **🌿 Baseline** | 0 μg/m³ | 77.0 years | 0.0 years | ✅ No impact |
-| **🌤️ Low** | 5 μg/m³ | 74.1 years | 2.9 years | ⚠️ Moderate |
-| **🌫️ Medium** | 15 μg/m³ | 68.7 years | 8.3 years | 🚨 Significant |
-| **☠️ high dangerous Case** | **30 μg/m³** | **61.3 years** | **15.7 years** | **🔥 Critical** | 
+| **Baseline** | 0 μg/m³ | 77.0 years | 0.0 years |  No impact |
+| **Low** | 5 μg/m³ | 74.1 years | 2.9 years |  Moderate |
+| **Medium** | 15 μg/m³ | 68.7 years | 8.3 years | Significant |
+| **high dangerous Case** | **30 μg/m³** | **61.3 years** | **15.7 years** | ** Critical** | 
 
 Vie Complète (77 ans)   : ████████████████████████████████████████████████████████████
 Scénario Léger (5)      : ████████████████████████████████████████████████████████░░░░ (-2.9 ans)
@@ -86,7 +86,7 @@ Nous ne disposons pas de mesures continues officielles des PM2.5 à Gabès.
 Cette simulation montre l'impact potentiel si la pollution atteignait ces niveaux.
 
 
-**📚 Academic Context**
+**Academic Context**
 Primary References:
 WHO (2021) - Global Air Quality Guidelines
 
@@ -96,7 +96,7 @@ Ben Brahim et al. (2019) - Gabès Environmental Impact
 
 Burnett et al. (2018) - Global PM2.5 Mortality
 
-🎓 Authors & Institution
+**Authors & Institution**
 Lead Researcher:
 Hiba MAHROUG
 ISIMM, University of Monastir
