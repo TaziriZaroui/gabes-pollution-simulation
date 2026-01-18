@@ -69,6 +69,8 @@ Reference: *WHO (2021). Global Air Quality Guidelines. RR=1.08 per 10μg/m³.*
 | **high dangerous Case** | **30 μg/m³** | **61.3 years** | **15.7 years** | ** Critical** | 
 
 
+**resultat**
+
 
 **ATTENTION : Clarification Importante**
 Note Méthodologique : Les valeurs de PM2.5 utilisées ici (0, 5, 15, 30 µg/m³) sont des scénarios hypothétiques basés sur :
