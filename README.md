@@ -4,7 +4,7 @@
 ****Simuler l'Impact | Sauver des Vies | Protéger Gabès
 "Il était une fois, Gabès était un joyau méditerranéen..."
 Ce projet n'est pas qu'une simple simulation statistique. C'est un témoignage numérique qui quantifie la douleur silencieuse d'une communauté, la perte invisible d'années de vie, et le prix humain du "développement" industriel.****
-![link](https://www.kaggle.com/code/hibazaroui/projet-gabes/edit)
+
 
 **Objectives**
 Quantifier les années de vie potentielles perdues
