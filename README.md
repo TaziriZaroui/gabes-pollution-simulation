@@ -83,9 +83,9 @@ Nous ne disposons pas de mesures continues officielles des PM2.5 à Gabès.
 Cette simulation montre l'impact potentiel si la pollution atteignait ces niveaux.
 
 
-**Academic Context**
-Primary References:
-WHO (2021) - Global Air Quality Guidelines
+**Academique references**
+
+=WHO (2021) - Global Air Quality Guidelines
 
 INS Tunisia (2023) - Demographic Statistics
 
@@ -94,15 +94,21 @@ Ben Brahim et al. (2019) - Gabès Environmental Impact
 Burnett et al. (2018) - Global PM2.5 Mortality
 
 **Authors & Institution**
-Lead Researcher:
+
+
 Hiba MAHROUG
+
 ISIMM, University of Monastir
+
 zarouihiba@gmail.com
 
 Supervisor:
+
 Prof. Nada HAJ MESSAOUD
+
 Department of Computer Science, ISIMM
 
 Academic Year: 2025/2026
+
 Project Type: Mini-Project / Research Simulation
 <div align="center">
