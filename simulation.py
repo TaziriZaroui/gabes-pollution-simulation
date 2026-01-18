@@ -60,3 +60,6 @@ print("="*50)
 # Sauvegarde
 df.to_csv('resultats_gabes.csv', index=False)
 print("\n✅ Fichiers créés : gabes_result.png et resultats_gabes.csv")
+
+*result*
+![Graphique résultats]
