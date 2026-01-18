@@ -62,4 +62,5 @@ df.to_csv('resultats_gabes.csv', index=False)
 print("\n✅ Fichiers créés : gabes_result.png et resultats_gabes.csv")
 
 *result*
-![Graphique résultats]
+![Graphique résultats](Capture d'écran 2026-01-18 154038.png)
+(Capture d'écran 2026-01-18 154027.png  )
