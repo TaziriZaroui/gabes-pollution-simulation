@@ -1,14 +1,10 @@
             # gabes-pollution-simulation
-<div align="center">
- <h1>
- Gabès Through the Lens of Simulation
-  
-Simuler l'Impact | Sauver des Vies | Protéger Gabès
+<Simuler l'Impact | Sauver des Vies | Protéger Gabès
+"Il était une fois, Gabès était un joyau méditerranéen..."
 
-Il était une fois, Gabès était un joyau méditerranéen....
-<h/3>
 Ce projet n'est pas qu'une simple simulation statistique. C'est un témoignage numérique qui quantifie la douleur silencieuse d'une communauté, la perte invisible d'années de vie, et le prix humain du "développement" industriel...
-</div> </h2>
+
+</div>
 🎯 Objectives
 Quantify potential life years lost due to industrial PM2.5 exposure
 
