@@ -5,46 +5,69 @@
 
 **Ce projet n'est pas qu'une simple simulation statistique. C'est un témoignage numérique qui quantifie la douleur silencieuse d'une communauté, la perte invisible d'années de vie, et le prix humain du "développement" industriel...**
 
-Objectif Principal
-Répondre à la question cruciale :
-"Combien d'années de vie perdons-nous à cause de la pollution industrielle à Gabès?"
+🎯 Objectives
+Quantify potential life years lost due to industrial PM2.5 exposure
 
-À travers ce projet, nous transformons des données abstraites en réalités tangibles :
+Visualize the invisible health burden on Gabès residents
 
-1.Chiffrer l'impact sanitaire
-2. Visualiser l'invisible (les PM2.5)
-3. Donner une voix aux statistiques silencieuses
-4. Sensibiliser par la démonstration scientifique plutot analytique
+Advocate for evidence-based environmental policies
 
-Concepts Clés Définis
-Définition : Particules fines d'un diamètre inférieur à 2.5 micromètres (30 fois plus fines qu'un cheveu humain).
+Educate about the human cost of industrial pollution
 
-Pourquoi c'est dangereux ?
+**Concepts Clés Définis**
+Définition :
+
+Particules fines d'un diamètre inférieur à 2.5 micromètres (30 fois plus fines qu'un cheveu humain).
+
+**Pourquoi c'est dangereux ?**
  Pénétration profonde : Atteignent les alvéoles pulmonaires
+ 
  Voyage sanguin : Passent dans le système circulatoire
+ 
 Effet cumulatif : S'accumulent dans l'organisme sur des années
+
  Cible multiple : Cœur, poumons, cerveau, système reproductif
 
-**À Gabès : Principalement émises par l'industrie chimique du phosphate.**
-Espérance de Vie (LE)
-Définition : Nombre moyen d'années qu'une personne peut espérer vivre à partir d'un âge donné.
+**À Gabès : Principalement émises par l'industrie chimique du phosphate!!!!!**
 
-Notre approche :
+Methodology & Data Sources
+Core Mathematical Model
+python
+LE_adj = LE_ref / exp(β × ΔPM2.5)
+Where:
 
-Paramètre	Valeur	Source
-LE_ref	77.0 ans	Institut National de la Statistique Tunisie (2023)
-RR	1.08 (+8%)	WHO (2021), GBD 2019 - Risk per 10 μg/m³
-ΔPM₂.₅	Variable	Valeurs simulées basées sur Gafsa/Gabès comparative
+LE_adj = Adjusted life expectancy (years)
 
+LE_ref = 77.0 years (Tunisia 2023, INS)
 
+β = 0.0077 (WHO risk coefficient)
 
-Risque Relatif (RR)
-Définition : Mesure du risque supplémentaire associé à une exposition.
+ΔPM2.5 = PM2.5 increase (μg/m³)
 
-Notre donnée clé :
-RR = 1.08 → Une augmentation de 10µg/m³ de PM2.5 augmente la mortalité de 8%  **( source WHO)**
+exp() = Exponential function
 
-*ATTENTION : Clarification Importante*
+Reference: *WHO (2021). Global Air Quality Guidelines. RR=1.08 per 10μg/m³.*
+## 📊 Data Sources & References
+
+| Data Type | Value | Source | Year | Confidence |
+|:----------|:------|:-------|:-----|:----------|
+| **Life Expectancy** | 77.0 years | INS Tunisia - National Statistics Institute | 2023 | 🟢 High |
+| **PM2.5 Risk Coefficient** | 1.08 per 10μg/m³ | WHO Global Air Quality Guidelines | 2021 | 🟢 High |
+| **Simulated Health Impact** | 15.7 years lost | This simulation (30μg/m³ scenario) | 2026 | 🟡 Medium |
+| **Regional Context** | Industrial pollution patterns | Ben Brahim et al., *J. Environ. Manage.* | 2019 | 🟢 High |
+| **Population Data** | ~150,000 residents | Gabès Governorate Census | 2023 | 🟢 High |
+| **Validation Data** | Respiratory disease rates | Tunisian Ministry of Health | 2022 | 🟡 Medium |
+
+## 🔬 Simulation Scenarios
+
+| Scenario | ΔPM2.5 | Life Expectancy | Years Lost | Health Impact |
+|:---------|:-------|:----------------|:-----------|:--------------|
+| **🌿 Baseline** | 0 μg/m³ | 77.0 years | 0.0 years | ✅ No impact |
+| **🌤️ Low** | 5 μg/m³ | 74.1 years | 2.9 years | ⚠️ Moderate |
+| **🌫️ Medium** | 15 μg/m³ | 68.7 years | 8.3 years | 🚨 Significant |
+| **☠️ high dangerous Case** | **30 μg/m³** | **61.3 years** | **15.7 years** | **🔥 Critical** | 
+
+**ATTENTION : Clarification Importante**
 Note Méthodologique : Les valeurs de PM2.5 utilisées ici (0, 5, 15, 30 µg/m³) sont des scénarios hypothétiques basés sur :
 
 La tendance actuelle d'augmentation de la pollution
@@ -64,23 +87,26 @@ urce : WHO (2021). Global Air Quality Guidelines. Geneva, Table 3.2, page 47.
 
 
 
-**Références Académiques Complètes**
-Bibliographie Formatée :
-OMS (2021) - Global Air Quality Guidelines
-Particulate matter (PM₂.₅): Annual mean → 5 μg/m³
-RR = 1.08 [1.06–1.10] per 10 μg/m³
+**📚 Academic Context**
+Primary References:
+WHO (2021) - Global Air Quality Guidelines
 
-GBD 2019 - Global Burden of Disease Study
-PM₂.₅ → 4.14 million deaths globally
-Tunisia: ~7,000 deaths attributable to PM₂.₅
+INS Tunisia (2023) - Demographic Statistics
 
-INS Tunisie (2023) - Statistiques Démographiques
-Espérance de vie à la naissance: 77.0 ans
+Ben Brahim et al. (2019) - Gabès Environmental Impact
 
-Ben Brahim et al. (2019) - Journal of Environmental Management
-Pollution industrielle à Gabès: impacts documentés
+Burnett et al. (2018) - Global PM2.5 Mortality
 
-Mahroug  hiba (2026). Gabès Through the Lens of Simulation: 
-Modélisation de l'impact des PM2.5 sur l'espérance de vie. 
-ISIMM, Université de Monastir.
-#WE_ARE_DYING_NOT_LYING #SAVE_GABES
+🎓 Authors & Institution
+Lead Researcher:
+Hiba MAHROUG
+ISIMM, University of Monastir
+zarouihiba@gmail.com
+
+Supervisor:
+Prof. Nada HAJ MESSAOUD
+Department of Computer Science, ISIMM
+
+Academic Year: 2025/2026
+Project Type: Mini-Project / Research Simulation
+<div align="center">
