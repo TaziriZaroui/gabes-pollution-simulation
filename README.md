@@ -1,9 +1,9 @@
-# gabes-pollution-simulation
+            # gabes-pollution-simulation
 <div align="center">
  <h1>
- **Gabès Through the Lens of Simulation**
+ Gabès Through the Lens of Simulation
   
-*Simuler l'Impact | Sauver des Vies | Protéger Gabès*
+Simuler l'Impact | Sauver des Vies | Protéger Gabès
 
 Il était une fois, Gabès était un joyau méditerranéen....
 </h3>
