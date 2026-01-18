@@ -1,10 +1,11 @@
 # gabes-pollution-simulation
+<div align="center"> <h1>
 # # Gabès Through the Lens of Simulation
 ### Simuler l'Impact | Sauver des Vies | Protéger Gabès
 ### Il était une fois, Gabès était un joyau méditerranéen....
-
+</h3>
 **Ce projet n'est pas qu'une simple simulation statistique. C'est un témoignage numérique qui quantifie la douleur silencieuse d'une communauté, la perte invisible d'années de vie, et le prix humain du "développement" industriel...**
-
+</div>
 🎯 Objectives
 Quantify potential life years lost due to industrial PM2.5 exposure
 
@@ -67,6 +68,12 @@ Reference: *WHO (2021). Global Air Quality Guidelines. RR=1.08 per 10μg/m³.*
 | **🌫️ Medium** | 15 μg/m³ | 68.7 years | 8.3 years | 🚨 Significant |
 | **☠️ high dangerous Case** | **30 μg/m³** | **61.3 years** | **15.7 years** | **🔥 Critical** | 
 
+Vie Complète (77 ans)   : ████████████████████████████████████████████████████████████
+Scénario Léger (5)      : ████████████████████████████████████████████████████████░░░░ (-2.9 ans)
+Scénario Moyen (15)     : █████████████████████████████████████████████████░░░░░░░░░░░ (-8.3 ans)
+Scénario critique  (30)     : ████████████████████████████████████████████░░░░░░░░░░░░░░░░ (-15.7 ans)
+
+
 **ATTENTION : Clarification Importante**
 Note Méthodologique : Les valeurs de PM2.5 utilisées ici (0, 5, 15, 30 µg/m³) sont des scénarios hypothétiques basés sur :
 
@@ -78,13 +85,6 @@ Une projection de ce qui pourrait arriver si aucune mesure n'est prise
 
 Nous ne disposons pas de mesures continues officielles des PM2.5 à Gabès.
 Cette simulation montre l'impact potentiel si la pollution atteignait ces niveaux.
-
-3. Formule de Projection
-
-LE_adj = LE_ref / [1 + ln(RR) × (ΔPM₂.₅ / 10)]
-urce : WHO (2021). Global Air Quality Guidelines. Geneva, Table 3.2, page 47. 
-
-
 
 
 **📚 Academic Context**
