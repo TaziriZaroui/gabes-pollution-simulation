@@ -67,6 +67,8 @@ Reference: *WHO (2021). Global Air Quality Guidelines. RR=1.08 per 10μg/m³.*
 | **Medium** | 15 μg/m³ | 68.7 years | 8.3 years | Significant |
 | **high dangerous Case** | **30 μg/m³** | **61.3 years** | **15.7 years** | ** Critical** | 
 
+**graphique visualisation**
+
 Vie Complète (77 ans)   : ████████████████████████████████████████████████████████████
 Scénario Léger (5)      : ████████████████████████████████████████████████████████░░░░ (-2.9 ans)
 Scénario Moyen (15)     : █████████████████████████████████████████████████░░░░░░░░░░░ (-8.3 ans)
