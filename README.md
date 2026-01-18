@@ -71,7 +71,7 @@ Reference: *WHO (2021). Global Air Quality Guidelines. RR=1.08 per 10μg/m³.*
 
 **resultat**
 ### 1. Tableau des résultats
-![Tableau des résultats PM2.5](screenshots/resultats_tableau.png)
+![logo](Capture d'écran 2026-01-18 154027.png)
 
 ### 2. Graphique d'impact
 ![Graphique espérance de vie vs PM2.5](screenshots/resultats_graphique.png)
